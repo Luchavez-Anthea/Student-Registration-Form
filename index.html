@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale-1">
+  <title>Student Registration</title>
+<link rel="stylesheet" href="STYLE.css">
+</head>
+
+<body>
+  <div class="container">
+  <h1>Student Registration Form</h1>
+<hr />
+
+<form>
+   <label for="First Name">First Name</label>
+   <input type="text" id="First Name" name="Firstname"    placeholder="First Name" />
+   
+   <label for="Middle Name">Middle Name:</label>
+   <input type="text" id="Middle Name" name="Middle Name" placeholder="Middle Name" />
+   
+   <label for="Last Name">Last Name:</label>
+   <input type="text" id="Last Name" name="Last Name" placeholder="Last Name" />
+
+   <label for="dob"> Date of Birth</label>
+   <input type="date" id="dob" name="dob" placeholder="MM/DD/YYYY">
+   
+   <label for="Email Address">Email Address:</label>
+   <input type="text" id="Email Address" name="Email Address" placeholder="Email Address" />
+
+   <label for="Cellphone Number">Cellphone Number:</label>
+   <input type="text" id="Cellphone Number" name="Cellphone Number" placeholder="Cellphone Number" />
+
+   <label for="Recent Address">Recent Address:</label>
+   <input type="text" id="Recent Address" name="Recent Address" placeholder="Recent Address" />
+
+    <label for="Permanent Address">Permanent Address:</label>
+   <input type="text" id="Permanent Address" name="Permanent Address" placeholder="Permanent Address" />
+
+   <label for="Guardian/Parents Name">Guardian/Parents Name:</label>
+   <input type="text" id="Guardian/Parents Name" name="Guardian/Parents Name" placeholder="Guardian/Parents Name" />
+
+<div class="gender-group">
+   <label>Gender:</label>
+   <input type="radio" id="Male" name="gender" value="Male" checked />
+   <label for="Male">Male</label>
+   <input type="radio" id="Female" name="gender"    value="Female" />
+   <label for="Female">Female</label>
+   <input type="radio" id="other" name="gender" value="other" />
+   <label for="other">Other</label>
+ </div>
+
+
+   <label for="Year Level">Year Level :</label>
+   <select id="Year Level" name="Year Level">
+   <option value="">-- Select Year Level --</option>
+   <option value="1st year">1st year</option>
+   <option value="2nd year">2nd year</option>
+   <option value="3rd year">3rd year</option>
+   <option value="4th year">4th year</option>
+</select>
+
+   <label for="Course">Course :</label>
+   <select id="Course" name="Course">
+   <option value="">-- Select Course --</option>
+   <option value="Bachelor of Industrial Technology">Bachelor of Industrial Technology</option>
+   <option value="Bachelor of Hospitality and Tourism Management">Bachelor of Hospitality and Tourism Management</option>
+   <option value="Bachelor of Secondary Education">Bachelor of Secondary Education</option>
+   <option value="Bachelor of Elementary Education">Bachelor of Elementary Education</option>
+</select>
+
+<label for="Major">Major :</label>
+   <select id="Major" name="Major">
+   <option value="">-- Select Major --</option>
+   <option value="Computer Technology">Computer Technology</option>
+   <option value="Electronics Technology">Electronics Technology</option>
+   <option value="Hospitality Magement">Hospitality Magement</option>
+   <option value="Tourism Management">Tourism Management</option>
+   <option value="English">Computer Technology</option>
+   <option value="Filipino">Electronics Technology</option>
+   <option value="Mathematics">Mathematics</option>
+   <option value="Social Studies">Social Studies</option>
+</select>
+
+   <button type="submit">Register</button>
+
+</form>
+</div>
+</body>
+</html>
